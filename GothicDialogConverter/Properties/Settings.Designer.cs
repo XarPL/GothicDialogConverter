@@ -25,37 +25,13 @@ namespace GothicDialogConverter.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("ENDE")]
+        [global::System.Configuration.DefaultSettingValueAttribute("END")]
         public string EndDialogKeyword {
             get {
                 return ((string)(this["EndDialogKeyword"]));
             }
             set {
                 this["EndDialogKeyword"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("--")]
-        public string StartChoiceKeyword {
-            get {
-                return ((string)(this["StartChoiceKeyword"]));
-            }
-            set {
-                this["StartChoiceKeyword"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute(";")]
-        public string EndChoiceKey {
-            get {
-                return ((string)(this["EndChoiceKey"]));
-            }
-            set {
-                this["EndChoiceKey"] = value;
             }
         }
     }

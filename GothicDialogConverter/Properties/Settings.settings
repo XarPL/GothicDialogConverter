@@ -3,13 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="EndDialogKeyword" Type="System.String" Scope="User">
-      <Value Profile="(Default)">ENDE</Value>
-    </Setting>
-    <Setting Name="StartChoiceKeyword" Type="System.String" Scope="User">
-      <Value Profile="(Default)">--</Value>
-    </Setting>
-    <Setting Name="EndChoiceKey" Type="System.String" Scope="User">
-      <Value Profile="(Default)">;</Value>
+      <Value Profile="(Default)">END</Value>
     </Setting>
   </Settings>
 </SettingsFile>
